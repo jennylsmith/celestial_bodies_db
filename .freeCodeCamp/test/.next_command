@@ -396,3 +396,14 @@ git commit -m "added README"
 git push downstream HEAD:main
 git status
 git add --all
+git commit -m "fixed spacing in README"
+git push downstream HEAD:main
+git push
+touch github_repo_init.sh
+pwd
+git status
+mv '# Using the gitpod VM environment that i.sh' 'github_repo_init.sh'
+git status
+cat github_repo_init.sh
+git status
+git add --all
